@@ -14,8 +14,8 @@ server {
 **Directive**
 |Directive|example|description|
 |---|---|---|
-|default-src|'self' cdn.example.com||
-|script-src|'self' js.example.com||
+|default-src|'self' cdn.example.com|Serves as a fallback for the other fetch directives.|
+|script-src|'self' js.example.com|Specifies valid sources for JavaScript and WebAssembly resources.|
 |style-src|	'self' css.example.com||
 |img-src|'self' img.example.com||
 |connect-src|'self'||
