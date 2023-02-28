@@ -10,3 +10,15 @@ server {
   add_header Content-Security-Policy ...
 }
 ```
+
+**Directive**
+|Directive|example|description|
+|---|---|---|
+|default-src|'self' cdn.example.com||
+|script-src|'self' js.example.com||
+|style-src|	'self' css.example.com||
+|img-src|'self' img.example.com||
+|connect-src|'self'||
+|font-src|font.example.com||
+|object-src|'self'||
+|media-src|media.example.com||
