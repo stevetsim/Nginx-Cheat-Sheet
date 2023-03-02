@@ -1,4 +1,4 @@
-# Nginx Cheat Sheet
+# Nginx Cheat Sheet (CSP)
 
 ## 1. Security
 ### CSP (Content Security Policy)
